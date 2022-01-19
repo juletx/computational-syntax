@@ -1,0 +1,638 @@
+"<are>"
+	"be" <*> <nosubj> V PR -1/3S
+"<you>"
+	"you" PERS 2S/P NOM
+"<agree>"
+	"agree" <vq> <v-cog> V PR -3S @AGREE_MISTAKE ADD:12
+"<with>"
+	"with" PRP
+"<me>"
+	"I" PERS 1S ACC
+"<$?>"
+	"?" PU <<< @PU
+
+"<i>"
+	"I" <*> PERS 1S NOM
+"<am>"
+	"be" V PR 1S
+"<completely>"
+	"completely" <ly> <ADJ:complete+ly> ADV
+"<agree>"
+	"agree" <vq> <v-cog> V INF @AGREE_MISTAKE ADD:12
+"<with>"
+	"with" PRP
+"<you>"
+	"you" PERS 2S/P ACC
+"<$.>"
+	"." PU <<< @PU
+
+"<they>"
+	"they" <*> PERS 3P NOM
+"<are_>"
+	"be" <sam-> V PR -1/3S
+"<_n't>"
+	"not" <-sam> ADV
+"<agree>"
+	"agree" <vq> <v-cog> V INF @AGREE_MISTAKE ADD:12
+"<with>"
+	"with" PRP
+"<your>"
+	"you" <poss> <det> PERS 2S/P GEN
+"<theory>"
+	"theory" <sem-c> <ac-cat> <def> N S NOM
+"<$.>"
+	"." PU <<< @PU
+
+"<it>"
+	"it" <*> PERS NEU 3S NOM
+"<is>"
+	"be" V PR 3S
+"<the>"
+	"the" <def> ART S/P
+"<first>"
+	"first" <num-ord> NUM
+"<time>"
+	"time" <ac-cat> <temp> <per> <num+> <def> N S NOM
+"<you>"
+	"you" PERS 2S/P NOM
+"<agree>"
+	"agree" <vq> <v-cog> V PR -3S
+"<with>"
+	"with" PRP
+"<me>"
+	"I" PERS 1S ACC
+"<$.>"
+	"." PU <<< @PU
+
+"<your>"
+	"you" <*> <poss> <det> PERS 2S/P GEN
+"<father>"
+	"father" <Hfam> <def> <nhead> N S NOM
+"<is_>"
+	"be" <sam-> V PR 3S
+"<_n't>"
+	"not" <-sam> ADV
+"<going>"
+	"go" <va+DIR> V PCP1
+"<to>"
+	"to" INFM
+"<agree>"
+	"agree" <vq> <v-cog> V INF
+"<to>"
+	"to" PRP
+"<what>"
+	"what" <rel> INDP S/P
+"<they>"
+	"they" PERS 3P NOM
+"<are>"
+	"be" V PR -1/3S
+"<saying>"
+	"say" <vq> <v-cog> <speak> V PCP1
+"<$.>"
+	"." PU <<< @PU
+
+"<i>"
+	"I" <*> PERS 1S NOM
+"<am>"
+	"be" V PR 1S
+"<sure>"
+	"sure" <jpsych> ADJ POS
+"<you>"
+	"you" PERS 2S/P NOM
+"<will>"
+	"will" V PR
+"<agree>"
+	"agree" <vq> <v-cog> V INF
+"<once>"
+	"once" KS
+"<i>"
+	"I" <*> PERS 1S NOM
+"<have>"
+	"have" V PR -3S
+"<explained>"
+	"explain" <vq> <v-cog> V PCP2 AKT
+"<the>"
+	"the" <def> ART S/P
+"<full>"
+	"full" ADJ POS
+"<context>"
+	"context" <sem-r> <sit> <def> N S NOM
+"<$.>"
+	"." PU <<< @PU
+
+"<i>"
+	"I" <*> PERS 1S NOM
+"<am>"
+	"be" V PR 1S
+"<taking>"
+	"take" <v.contact> <v.contact> V PCP1 @TAKE_MISTAKE ADD:15
+"<a>"
+	"a" <indef> ART S
+"<coffee>"
+	"coffee" <col> <drink> <idf> N S NOM
+"<$.>"
+	"." PU <<< @PU
+
+"<i>"
+	"I" <*> PERS 1S NOM
+"<took>"
+	"take" <v.contact> <v.contact> V IMPF @TAKE_MISTAKE ADD:18
+"<a>"
+	"a" <indef> ART S
+"<couple>"
+	"couple" <HH> <amount> <idf> <nhead> N S NOM
+"<of>"
+	"of" PRP
+"<beers>"
+	"beer" <drink> <idf> N P NOM
+"<yesterday>"
+	"yesterday" <atemp> ADV
+"<$.>"
+	"." PU <<< @PU
+
+"<let_>"
+	"let" <sam-> <*> V IMP
+"<_s>"
+	"we" <-sam> PERS 1P ACC
+"<go>"
+	"go" <move> V INF
+"<out>"
+	"out" <adir> ADV
+"<and>"
+	"and" KC
+"<take>"
+	"take" <v.contact> <v.contact> V INF @TAKE_MISTAKE ADD:15
+"<a>"
+	"a" <indef> ART S
+"<drink>"
+	"drink" <drink> <idf> N S NOM
+"<$.>"
+	"." PU <<< @PU
+
+"<i>"
+	"I" <*> PERS 1S NOM
+"<took>"
+	"take" <v.contact> <v.contact> V IMPF
+"<the>"
+	"the" <def> ART S/P
+"<decision>"
+	"decision" <act-c> <def> N S NOM
+"<not>"
+	"not" ADV
+"<to>"
+	"to" INFM
+"<drink>"
+	"drink" <vtk+ADJ> V INF
+"<anymore>"
+	"anymore" ADV
+"<$.>"
+	"." PU <<< @PU
+
+"<do>"
+	"do" <*> <v.contact> V PR -3S
+"<you>"
+	"you" PERS 2S/P NOM
+"<take>"
+	"take" <v.contact> <v.contact> V INF
+"<sugar>"
+	"sugar" <food> <cm-chem> <second> <idf> N S NOM
+"<in>"
+	"in" PRP
+"<your>"
+	"you" <poss> <det> PERS 2S/P GEN
+"<coffee>"
+	"coffee" <col> <drink> <def> N S NOM
+"<$?>"
+	"?" PU <<< @PU
+
+"<she>"
+	"she" <*> <fem> PERS FEM 3S NOM
+"<took>"
+	"take" <v.contact> <v.contact> V IMPF
+"<a>"
+	"a" <indef> ART S
+"<sip>"
+	"sip" <act-d> <idf> <nhead> N S NOM
+"<of>"
+	"of" PRP
+"<whisky>"
+	"whisky" <drink> <idf> N S NOM
+"<$.>"
+	"." PU <<< @PU
+
+"<we>"
+	"we" <*> PERS 1P NOM
+"<were>"
+	"be" V IMPF -1/3S
+"<taken>"
+	"take" <v.contact> <v.contact> V PCP2 PAS
+"<to>"
+	"to" INFM
+"<have>"
+	"have" V INF
+"<a>"
+	"a" <indef> ART S
+"<drink>"
+	"drink" <drink> <idf> N S NOM
+"<$.>"
+	"." PU <<< @PU
+
+"<she>"
+	"she" <*> <fem> PERS FEM 3S NOM
+"<was>"
+	"be" V IMPF 1/3S
+"<finally>"
+	"finally" <ly> <ADJ:final+ly> ADV
+"<free>"
+	"free" ADJ POS
+"<to>"
+	"to" INFM
+"<take>"
+	"take" <v.contact> <v.contact> V INF @TAKE_MISTAKE ADD:15
+"<an>"
+	"a" <indef> ART S
+"<official>"
+	"official" <jpert> ADJ POS
+"<coffee>"
+	"coffee" <col> <drink> <comp1> <idf> N S NOM
+"<break>"
+	"break" <food> <comp2> <idf> N S NOM
+"<$.>"
+	"." PU <<< @PU
+
+"<will>"
+	"will" <*> V PR
+"<you>"
+	"you" PERS 2S/P NOM
+"<help>"
+	"help" V INF
+"<me>"
+	"I" PERS 1S ACC
+"<do>"
+	"do" <v.contact> <DL:bio> V INF @DO_MISTAKE ADD:21
+"<a>"
+	"a" <indef> ART S
+"<cake>"
+	"cake" <food-c> <DL:bio> <idf> N S NOM
+"<$?>"
+	"?" PU <<< @PU
+
+"<i>"
+	"I" <*> PERS 1S NOM
+"<have>"
+	"have" <DL:bio> V PR -3S
+"<done>"
+	"do" <v.contact> <DL:bio> V PCP2 AKT @DO_MISTAKE ADD:21
+"<a=lot=of>"
+	"a=lot=of" <quant> DET S/P
+"<mistakes>"
+	"mistake" <act-d> <sem-c> <DL:bio> <idf> N P NOM
+"<in>"
+	"in" PRP
+"<my>"
+	"I" <poss> <det> PERS 1S GEN
+"<essay>"
+	"essay" <sem-r> <act> <DL:bio> <def> N S NOM
+"<$.>"
+	"." PU <<< @PU
+
+"<now>"
+	"now" <*> <atemp> ADV
+"<do>"
+	"do" <v.contact> <DL:bio> V PR -3S
+"<you>"
+	"you" PERS 2S/P NOM
+"<want>"
+	"want" <v.contact> <vtk+ADJ> <vtk+PCP2> V INF
+"<any>"
+	"any" <quant> DET S/P
+"<cake>"
+	"cake" <food-c> <DL:bio> <idf> <nhead> N S NOM
+"<with>"
+	"with" PRP
+"<that>"
+	"that" <dem> DET S
+"<second>"
+	"second" <num-ord> NUM
+"<cup>"
+	"cup" <con> <occ> <DL:bio> <def> <nhead> N S NOM
+"<of>"
+	"of" PRP
+"<tea>"
+	"tea" <drink> <Bbush> <DL:bio> <idf> N S NOM
+"<$?>"
+	"?" PU <<< @PU
+
+"<it>"
+	"it" <*> PERS NEU 3S NOM
+"<does>"
+	"do" <v.contact> V PR 3S
+"<not>"
+	"not" ADV
+"<include>"
+	"include" <DL:bio> V INF
+"<mistakes>"
+	"mistake" <act-d> <sem-c> <DL:bio> <idf> <nhead> N P NOM
+"<other=than>"
+	"other=than" PRP
+"<those>"
+	"that" <dem> INDP P
+"<occasioned>"
+	"occasion" <DL:bio> V PCP2 PAS
+"<by>"
+	"by" PRP
+"<fraud>"
+	"fraud" <act> <H> <DL:bio> <idf> N S NOM
+"<$.>"
+	"." PU <<< @PU
+
+"<she>"
+	"she" <*> <fem> PERS FEM 3S NOM
+"<did>"
+	"do" <v.contact> V IMPF
+"<not>"
+	"not" ADV
+"<realise>"
+	"realise" <v-cog> V INF
+"<her>"
+	"she" <fem> <poss> <det> PERS FEM 3S GEN
+"<mistake>"
+	"mistake" <act-d> <sem-c> <def> N S NOM
+"<$.>"
+	"." PU <<< @PU
+
+"<i>"
+	"I" <*> PERS 1S NOM
+"<like>"
+	"like" <vtk+ADJ> <DL:sport> V PR -3S
+"<making>"
+	"make" <v.contact> <vtk+N> <vtk+ADJ> <v.contact> <DL:sport> V PCP1 @MAKE_MISTAKE ADD:24
+"<extreme>"
+	"extreme" <Labs> <DL:sport> <idf> <nhead> N S NOM
+"<sports>"
+	"sport" <sport> <domain> <M:H> <DL:sport> <idf> N P NOM
+"<$.>"
+	"." PU <<< @PU
+
+"<we>"
+	"we" <*> PERS 1P NOM
+"<were>"
+	"be" <DL:sport> V IMPF -1/3S
+"<going>"
+	"go" <va+DIR> <DL:sport> V PCP1
+"<to>"
+	"to" INFM
+"<make>"
+	"make" <DL:sport> V INF
+"<up>"
+	"up" ADV
+"<a>"
+	"a" <indef> ART S
+"<sport>"
+	"sport" <sport> <domain> <M:H> <DL:sport> <idf> N S NOM
+"<to>"
+	"to" INFM
+"<see>"
+	"see" <vq> <v.contact> <vtk+ADJ> <DL:sport> V INF
+"<what>"
+	"what" <interr> INDP S/P
+"<he>"
+	"he" <masc> PERS MASC 3S NOM
+"<said>"
+	"say" <vq> <v-cog> <speak> <DL:sport> V IMPF
+"<$.>"
+	"." PU <<< @PU
+
+"<competitors>"
+	"competitor" <*> <H> <DL:sport> <idf> <nhead> N P NOM
+"<could>"
+	"can" <DL:sport> V IMPF
+"<make>"
+	"make" <v.contact> <vtk+N> <vtk+ADJ> <v.contact> <DL:sport> V INF
+"<use>"
+	"use" <act> <P:f> <second> <DL:sport> <idf> <nhead> N S NOM
+"<of>"
+	"of" PRP
+"<all>"
+	"all" <quant> <nhead> DET S/P
+"<the>"
+	"the" <def> ART S/P
+"<excellent>"
+	"excellent" <Q:good> <DL:sport> ADJ POS
+"<sports>"
+	"sport" <sport> <domain> <M:H> <DL:sport> <comp1> <first> <def> N P NOM
+"<facilities>"
+	"facility" <Lh> <f-psych> <second> <comp2> <DL:sport> <def> N P NOM
+"<throughout>"
+	"throughout" PRP
+"<the>"
+	"the" <def> ART S/P
+"<academy>"
+	"academy" <*> <inst> <DL:sport> <def> N S NOM
+"<$.>"
+	"." PU <<< @PU
+
+"<i>"
+	"I" <*> PERS 1S NOM
+"<am>"
+	"be" V PR 1S
+"<here>"
+	"here" <aloc> ADV
+"<since>"
+	"since" PRP @SINCE_MISTAKE ADD:27
+"<an>"
+	"a" <indef> ART S
+"<hour>"
+	"hour" <dur> <per> <idf> N S NOM
+"<ago>"
+	"ago" ADV
+"<$.>"
+	"." PU <<< @PU
+
+"<euro=Disney>"
+	"Euro=Disney" <*> <Proper> <heur> <nhead> N S NOM
+"<has>"
+	"have" V PR 3S
+"<been>"
+	"be" V PCP2 AKT
+"<losing>"
+	"lose" <v.contact> V PCP1
+"<money>"
+	"money" <mon> <second> <idf> N S NOM
+"<since>"
+	"since" KS
+"<it>"
+	"it" PERS NEU 3S NOM
+"<opened>"
+	"open" <v.contact> <v.contact> V IMPF
+"<eighteen>"
+	"eighteen" <fr:100>  <b:250> <card> NUM P
+"<months>"
+	"month" <ac-cat> <per> <dur> <def> N P NOM
+"<ago>"
+	"ago" ADV
+"<$.>"
+	"." PU <<< @PU
+
+"<can>"
+	"can" <*> V PR
+"<you>"
+	"you" PERS 2S/P NOM
+"<explain>"
+	"explain" <vq> <v-cog> V INF @TO_MISTAKE ADD:31
+"<me>"
+	"I" PERS 1S ACC
+"<again>"
+	"again" <atemp> ADV
+"<$,>"
+	"," PU @PU
+"<please>"
+	"please" ADV
+"<$?>"
+	"?" PU <<< @PU
+
+"<will>"
+	"will" <*> V PR
+"<you>"
+	"you" PERS 2S/P NOM
+"<listen>"
+	"listen" V INF @TO_MISTAKE ADD:31
+"<mum>"
+	"mum" <Htit> <f> <fem> <Hfam> <Bflo> <idf> N S NOM
+"<$,>"
+	"," PU @PU
+"<please>"
+	"please" ADV
+"<$?>"
+	"?" PU <<< @PU
+
+"<she>"
+	"she" <*> <fem> PERS FEM 3S NOM
+"<did_>"
+	"do" <sam-> <v.contact> <DL:bio> V IMPF
+"<_n't>"
+	"not" <-sam> ADV
+"<say>"
+	"say" <vq> <v-cog> <speak> V INF @TO_MISTAKE ADD:31
+"<me>"
+	"I" PERS 1S ACC
+"<anything>"
+	"anything" INDP S NOM
+"<$.>"
+	"." PU <<< @PU
+
+"<helen>"
+	"Helen" <*> <Proper> <hum> <fem> <Hmyth> <nhead> N S NOM
+"<has>"
+	"have" V PR 3S @YEARS_MISTAKE ADD:34
+"<$18>"
+	"18" <card> NUM P
+"<years>"
+	"year" <per> <dur> <def> N P NOM
+"<old>"
+	"old" <jbio> ADJ POS
+"<$.>"
+	"." PU <<< @PU
+
+"<how>"
+	"how" <*> <interr> <aquant> ADV
+"<many>"
+	"many" <quant> DET ABS P
+"<years>"
+	"year" <per> <dur> <idf> <nhead> N P NOM @YEARS_MISTAKE ADD:37
+"<do>"
+	"do" <v.contact> V PR -3S
+"<you>"
+	"you" PERS 2S/P NOM
+"<have>"
+	"have" V INF
+"<$?>"
+	"?" PU <<< @PU
+
+"<its>"
+	"it" <*> <poss> <det> PERS NEU 3S GEN
+"<success>"
+	"success" <event> <def> <nhead> N S NOM
+"<has>"
+	"have" V PR 3S
+"<taken>"
+	"take" <v.contact> <v.contact> V PCP2 AKT
+"<years>"
+	"year" <per> <dur> <idf> <nhead> N P NOM
+"<of>"
+	"of" PRP
+"<dedication>"
+	"dedication" <act> <f-psych> <sem-r> <event> <idf> N S NOM
+"<to>"
+	"to" INFM
+"<achieve>"
+	"achieve" V INF
+"<$.>"
+	"." PU <<< @PU
+
+"<how>"
+	"how" <*> <interr> <aquant> ADV
+	"how" <*> <dem> <aquant> ADV
+"<many>"
+	"many" <quant> DET ABS P
+"<years>"
+	"year" <per> <dur> <idf> <nhead> N P NOM
+"<of>"
+	"of" PRP
+"<experience>"
+	"experience" <f-psych> <percep-f> <idf> <nhead> N S NOM
+"<do>"
+	"do" <v.contact> V PR -3S
+"<you>"
+	"you" PERS 2S/P NOM
+"<have>"
+	"have" V INF
+"<$?>"
+	"?" PU <<< @PU
+
+"<i>"
+	"I" <*> PERS 1S NOM
+"<did_>"
+	"do" <sam-> <v.contact> V IMPF @DO_MISTAKE ADD:40
+"<_n't>"
+	"not" <-sam> ADV
+"<went>"
+	"go" <move> V IMPF
+"<out>"
+	"out" <adir> ADV
+"<yesterday>"
+	"yesterday" <atemp> ADV
+"<$.>"
+	"." PU <<< @PU
+
+"<she>"
+	"she" <*> <fem> PERS FEM 3S NOM
+"<does_>"
+	"do" <sam-> <v.contact> V PR 3S @DO_MISTAKE ADD:43
+"<_n't>"
+	"not" <-sam> ADV
+"<goes>"
+	"go" <move> V PR 3S
+"<to>"
+	"to" PRP
+"<church>"
+	"church" <build> <HHorg> <idf> N S NOM
+"<$.>"
+	"." PU <<< @PU
+
+"<what>"
+	"what" <*> <interr> INDP S/P
+"<did>"
+	"do" <v.contact> V IMPF @DO_MISTAKE ADD:40
+"<you>"
+	"you" PERS 2S/P NOM
+"<ate>"
+	"eat" V IMPF
+"<for>"
+	"for" PRP
+"<dinner>"
+	"dinner" <food> <occ> <idf> N S NOM
+"<$?>"
+	"?" PU @PU <<<
+
+ 

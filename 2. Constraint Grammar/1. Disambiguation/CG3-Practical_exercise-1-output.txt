@@ -1,0 +1,58 @@
+"<he_>"
+	"he" <sam-> <*> <masc> PERS MASC 3S NOM
+"<_s>"
+	"have" <-sam> V PR 3S
+;	"be" <-sam> V PR 3S REMOVE:17
+;	"we" <-sam> PERS 1P ACC REMOVE:14
+"<adopted>"
+	"adopt" V PCP2 AKT SELECT:20
+;	"adopt" V PCP2 PAS SELECT:20
+;	"adopt" V PCP2 STA SELECT:20
+;	"adopt" V IMPF SELECT:20
+"<another>"
+	"another" DET S SELECT:23
+;	"another" INDP S NOM SELECT:23
+"<blasted>"
+	"blasted" ADJ POS SELECT:26
+;	"blast" <v.contact> V PCP2 AKT SELECT:26
+;	"blast" <v.contact> V PCP2 PAS SELECT:26
+;	"blast" <v.contact> V PCP2 STA SELECT:26
+;	"blast" <v.contact> V IMPF SELECT:26
+"<lame>"
+	"lame" <jsick> ADJ POS SELECT:26
+;	"lame" V PR -3S SELECT:26
+;	"lame" V INF SELECT:26
+;	"lame" V IMP SELECT:26
+;	"lame" <cc> N S NOM SELECT:26
+"<duck>"
+	"duck" <Hprof> <comp2> N S NOM SELECT:29
+;	"duck" V PR -3S SELECT:29
+;	"duck" V INF SELECT:29
+;	"duck" V IMP SELECT:29
+"<and>"
+	"and" KC
+"<has>"
+	"have" V PR 3S
+"<got>"
+	"get" <va+DIR> <vta+DIR> <vtk+ADJ> V PCP2 AKT SELECT:20
+;	"get" <va+DIR> <vta+DIR> <vtk+ADJ> V IMPF SELECT:20
+;	"get" <va+DIR> <vta+DIR> <vtk+ADJ> V PCP2 PAS SELECT:20
+;	"get" <va+DIR> <vta+DIR> <vtk+ADJ> V PCP2 STA SELECT:20
+"<him>"
+	"he" <masc> PERS MASC 3S ACC
+"<living>"
+	"live" <va+LOC> V PCP1 SELECT:32
+;	"living" <f-psych> <HH> <mon> <state> N S NOM SELECT:32
+;	"living" <jpert> <jppl> ADJ POS SELECT:32
+;	"living" <pcp1> ADJ POS SELECT:32
+;	"living" <pcp1> N S NOM SELECT:32
+"<here>"
+	"here" <aloc> ADV
+"<with>"
+	"with" PRP
+"<him>"
+	"he" <masc> PERS MASC 3S ACC
+"<$!>"
+	"!" PU <<< @PU
+
+"<$¶>"

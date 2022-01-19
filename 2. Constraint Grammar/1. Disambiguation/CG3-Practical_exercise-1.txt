@@ -1,0 +1,32 @@
+1 DELIMITERS = "<$.>" "<$!>" "<$?>" "<$\;>" "<$:>" "<$-->" "<$>" "<$start>" "<$START>" ;
+2 MAPPING-PREFIX = @ ;
+3 
+4 SETS
+5 LIST PAST_VERBS = PCP2 IMPF;
+6 LIST ADJ_NOUN = ADJ N;
+7 
+8 CORRECTIONS
+9 
+10 MAPPINGS
+11 
+12 CONSTRAINTS
+13 # Remove we if the previous word if not let (<_s>)
+14 REMOVE ("we") IF (0 ("<_s>")) (NOT -1 ("let"));
+15 
+16 # Remove be if the following verb is not past participle or past (<_s>)
+17 REMOVE ("be") IF (0 ("<_s>")) (1 PAST_VERBS);
+18 
+19 # Select past participle active if the previous verb is have (<adopted>, <got>)
+20 SELECT (V PCP2 AKT) IF (-1 ("have"));
+21 
+22 # Select determiner if the following word is an adjective or a noun (<another>)
+23 SELECT (DET) IF (1 ADJ_NOUN);
+24 
+25 # Select adjective if the following word is an adjective or a noun (<blasted>, <lame>)
+26 SELECT (ADJ) IF (1 ADJ_NOUN);
+27 
+28 # Select noun if the previous word is an adjective (<duck>)
+29 SELECT (N) IF (-1 (ADJ));
+30 
+31 # Select verb if the following word is an adverb (<living>)
+32 SELECT (V) IF (1 (ADV));

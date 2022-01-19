@@ -1,0 +1,43 @@
+1 DELIMITERS = "<$.>" "<$!>" "<$?>" "<$\;>" "<$:>" "<$-->" "<$>" "<$start>" "<$START>" ;
+2 MAPPING-PREFIX = @ ;
+3 
+4 SETS
+5 
+6 CORRECTIONS
+7 
+8 MAPPINGS
+9 
+10 CONSTRAINTS
+11 # Add a mistake tag if the verb "be" appears before "agree", and there is not a verb or noun between them.
+12 ADD (@AGREE_MISTAKE) TARGET ("<agree>") IF (*-1 ("be") BARRIER (V) OR (N));
+13 
+14 # Add a mistake tag if a drink appears after "take", and there is not a verb or noun between them.
+15 ADD (@TAKE_MISTAKE) TARGET ("take") IF (*1 (<drink>) BARRIER (V) OR (N));
+16 
+17 # Add a mistake tag if an amount noun appears after "take".
+18 ADD (@TAKE_MISTAKE) TARGET ("take") IF (*1 (<amount>));
+19 
+20 # Add a mistake tag if a noun appears after "do", and there is no verb between them.
+21 ADD (@DO_MISTAKE) TARGET ("do") IF (*1 (N) BARRIER (V));
+22 
+23 # Add a mistake tag if "sport" appears after "make", and there is no article in between.
+24 ADD (@MAKE_MISTAKE) TARGET ("make") IF (*1 ("sport") BARRIER (ART));
+25 
+26 # Add a mistake tag if "ago" appears after "since", and there is not verb in between.
+27 ADD (@SINCE_MISTAKE) TARGET ("since") IF (*1 ("ago") BARRIER (V));
+28 
+29 # Add a mistake tag if a personal pronoun or noun appears after the following verbs.
+30 LIST ELS = "explain" "listen" "say";
+31 ADD (@TO_MISTAKE) TARGET ELS IF (1 (PERS) OR (N));
+32 
+33 # Add a mistake tag if "years old" appears after "has".
+34 ADD (@YEARS_MISTAKE) TARGET ("<has>") IF (*1 ("<years>") LINK 1 ("old"));
+35 
+36 # Add a mistake tag if a verb appears after "years", and there is no "of" in between.
+37 ADD (@YEARS_MISTAKE) TARGET ("<years>") IF (*1 (V) BARRIER ("of"));
+38 
+39 # Add a mistake tag if a past tense verb appears after "did".
+40 ADD (@DO_MISTAKE) TARGET ("do") + (IMPF) IF (*1 (V) + (IMPF));
+41 
+42 # Add a mistake tag if a third person singular verb appears after "does".
+43 ADD (@DO_MISTAKE) TARGET ("do") + (3S) IF (*1 (V) + (3S));
