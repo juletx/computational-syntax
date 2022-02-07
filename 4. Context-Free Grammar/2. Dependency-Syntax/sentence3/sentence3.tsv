@@ -1,0 +1,14 @@
+sent_id	left_context	pivot	right_context
+0339.test	can 	you	 find me another flight from cincinnati to new york on saturday before 6 pm 
+0515.train	i 'm looking for a flight from charlotte to las vegas that stops in st. louis hopefully a dinner flight how can 	i	 find that out 
+1417.train	can 	you	 find me a flight from salt lake city to new york city next saturday before arriving before 6 pm 
+1997.train	can 	you	 find out about the ground transportation available in atlanta 
+2191.train	could 	you	 find me a flight from boston to san francisco that stops in denver 
+2436.train	could 	you	 please find me the earliest flight from boston to oakland 
+2549.train	i 'd like to fly from denver to pittsburgh to atlanta could 	you	 find me the cheapest way to do this 
+2578.train	could 	you	 find me the cheapest fare from boston to san francisco 
+2602.train	could 	you	 please find me the cheapest one way fare from boston to philadelphia 
+2644.train	all right 	what	 i 'd like to do is find the cheapest one way fare from boston to denver 
+2682.train	i 'd like to fly from boston to san francisco could 	you	 find me the cheapest fare 
+0147.dev	could 	you	 please find me a nonstop flight from atlanta to baltimore on a boeing 757 arriving at 7 pm 
+0325.dev	what flights can 	i	 find from pittsburgh to san francisco after 9 am 

@@ -1,0 +1,24 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = english-ewt-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Today's incident proves that Sharon has lost his patience and his hope in peace.
+1	Today	today	NOUN	NN	Number=Sing	3	nmod:poss	_	SpaceAfter=No|TokenRange=0:5
+2	's	's	PART	POS	_	1	case	_	TokenRange=5:7
+3	incident	incident	NOUN	NN	Number=Sing	4	nsubj	_	TokenRange=8:16
+4	proves	prove	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	TokenRange=17:23
+5	that	that	SCONJ	IN	_	8	mark	_	TokenRange=24:28
+6	Sharon	Sharon	PROPN	NNP	Number=Sing	8	nsubj	_	TokenRange=29:35
+7	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	TokenRange=36:39
+8	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	TokenRange=40:44
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	TokenRange=45:48
+10	patience	patience	NOUN	NN	Number=Sing	8	obj	_	TokenRange=49:57
+11	and	and	CCONJ	CC	_	13	cc	_	TokenRange=58:61
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	TokenRange=62:65
+13	hope	hope	NOUN	NN	Number=Sing	10	conj	_	TokenRange=66:70
+14	in	in	ADP	IN	_	15	case	_	TokenRange=71:73
+15	peace	peace	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No|TokenRange=74:79
+16	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=79:80
+

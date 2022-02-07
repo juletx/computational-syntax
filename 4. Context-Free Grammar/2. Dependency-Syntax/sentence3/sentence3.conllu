@@ -1,0 +1,13 @@
+Id	Form	Lemma	UPosTag	XPosTag	Feats	Head	DepRel	Deps	Misc
+1	could	could	AUX	MD	VerbForm=Fin	3	aux	_	TokenRange=0:5
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	TokenRange=6:9
+3	find	find	VERB	VB	VerbForm=Inf	0	root	_	TokenRange=10:14
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	iobj	_	TokenRange=15:17
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	TokenRange=18:21
+6	cheapest	cheap	ADJ	JJS	Degree=Sup	7	amod	_	TokenRange=22:30
+7	fare	fare	NOUN	NN	Number=Sing	3	obj	_	TokenRange=31:35
+8	from	from	ADP	IN	_	9	case	_	TokenRange=36:40
+9	boston	boston	PROPN	NNP	Number=Sing	7	nmod	_	TokenRange=41:47
+10	to	to	ADP	IN	_	11	case	_	TokenRange=48:50
+11	san	san	PROPN	NNP	Number=Sing	7	nmod	_	TokenRange=51:54
+12	francisco	francisco	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No|TokenRange=55:64
